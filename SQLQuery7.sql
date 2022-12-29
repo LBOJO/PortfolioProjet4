@@ -19,7 +19,7 @@ Where continent is not null
 order by 1,2
 
 ---looking at Total Cases vs Total Deaths
---shows likehood of dying if you contract covid in your country
+--Shows likehood of dying if you contract covid in your country
 
 Select location , date, total_cases,total_deaths, (total_deaths/total_cases)*100 as DeathPercentage
 From coviddeaths
